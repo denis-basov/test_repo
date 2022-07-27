@@ -1,0 +1,56 @@
+
+/* стили для одного авто */
+.one__car{
+    background: #e0cbfc;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.one-car__item{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.one-car__item-text{
+    font-size: 20px;
+    color: #484848;
+}
+
+.one-car__item-text span{
+    color: brown;
+    font-weight: bold;
+}
+
+.one-car__item-img{
+    width: 500px;
+}
+
+.one-car__item-img img{
+    width: 100%;
+}
+
+/* стили для списка авто */
+.cars{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.cars li{
+    border: 3px solid yellowgreen;
+    border-radius: 10px;
+    list-style: none;
+    padding: 10px;
+    margin: 15px;
+}
+
+.car__item .link{
+    background: goldenrod;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
